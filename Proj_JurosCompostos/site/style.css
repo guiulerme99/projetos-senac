@@ -1,0 +1,18 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.estilo1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.campos-horizontal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
