@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     background-color: orange;
+    width: 100%;
 }
 .campos-horizontal {
     display: flex;
@@ -20,4 +21,19 @@ body {
 .labelCampos {
     padding: 05px;
     font-size: 20px;
+}
+main {
+    
+}
+header {
+    display: flex;
+    width: 100%;
+}
+header h1 {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
 }
