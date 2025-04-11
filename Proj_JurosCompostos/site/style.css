@@ -22,6 +22,9 @@ body {
     padding: 05px;
     font-size: 20px;
 }
+#section-resultado {
+    display: none;
+}
 table {
     border-collapse: collapse;
     width: 100%;
