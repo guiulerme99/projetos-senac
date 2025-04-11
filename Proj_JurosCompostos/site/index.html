@@ -20,10 +20,29 @@
          <section class="estilo1">
             <h2>Campos</h2>
             <div class="campos-horizontal">
-                <label>Valor inicial
-                    <input id="campo-valor" type="">
+                <label>Valor inicial:
+                    <input id="campo-valor" type="number" placeholder="Digite um valor">
+                </label>
+                <label>Investimento mensal:
+                    <input id="campo-investimento" type="number" placeholder="Digite um valor">
+                </label>
+                <label>Juros (a.a): 
+                    <input id="campo-juros" type="number" placeholder="Digite um valor">
+                %</label>
+                <label>Quantidade de meses:
+                    <input id="campo-meses" type="number" placeholder="Digite um valor">
+                </label>
+                <label>Mês inicial:
+                    <input id="campo-mes-inicial" type="number" placeholder="Digite um valor">
+                </label>
+                <label>Ano inicial:
+                    <input id="campo-ano-inicial" type="number" placeholder="Digite um valor">
                 </label>
             </div>
+         </section>
+         <section class="estilo1" id="section-resultado">
+            <h2>Resultado</h2>
+            <div id="juros-resultado"></div>
          </section>
     </main>
 </body>
