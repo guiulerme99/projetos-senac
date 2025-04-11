@@ -23,15 +23,15 @@ body {
     font-size: 20px;
 }
 main {
-    
+    width: 60%;
 }
 header {
     display: flex;
-    width: 100%;
+    width: 60%;
 }
 header h1 {
-    background-color: black;
-    color: white;
+    background-color: orange;
+    color: black;
     padding: 20px;
     margin: 0px;
     width: 100%;
