@@ -9,10 +9,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: orange;
 }
 .campos-horizontal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.labelCampos {
+    padding: 05px;
+    font-size: 20px;
 }
