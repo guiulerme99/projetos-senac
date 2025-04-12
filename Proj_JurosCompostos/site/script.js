@@ -7,6 +7,8 @@ function calcJuros() {
     let mesInicial = document.getElementById("campo-mes-inicial").value;
     let anoInicial = document.getElementById("campo-ano-inicial").value;
 
+    
+
     let taxaMensal = Math.pow(1+juros/100, 1/12) - 1;
     document.getElementById("campo1").innerHTML = taxaMensal;
 
