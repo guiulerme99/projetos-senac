@@ -30,7 +30,7 @@ section h2 {
     font-size: 20px;
 }
 #section-resultado {
-    display: none;
+    /* display: none; */
 }
 table {
     border-collapse: collapse;
